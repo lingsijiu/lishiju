@@ -1,0 +1,5 @@
+    if (largest != i) {
+        swap(arr, i, largest);
+        heapify(arr, largest);
+    }
+}
