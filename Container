@@ -1,0 +1,13 @@
+ListView(
+children: List.generate(100, (index) {
+     
+     
+ return Container(
+   height: 50,
+   color: index % 2 == 0 ? Colors.red : Colors.blue,
+   child: ListTile(
+     title: Text('Item $index'),
+   ),
+ );
+}),
+);
