@@ -1,0 +1,8 @@
+public class UserException extends RuntimeException {
+ }
+public class UserExistedException extends UserException {
+}
+
+public class UserNotFoundException extends UserException {
+}
+...
