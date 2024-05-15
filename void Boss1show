@@ -1,0 +1,20 @@
+	EndBatchDraw();
+ 
+	
+	Sleep(100);
+ 
+ 
+}
+ 
+ 
+void Boss1show()
+{
+	
+	p_AP->y = WINDOW_HEIGHT + 100;
+	p_AP2->y = WINDOW_HEIGHT + 100;
+ 
+	if (boss1hp >14)
+	{
+		putimage(WINDOW_WIDTH / 2 - boss1w / 2, -boss1h + boss1image, &i_boss1_1S, NOTSRCERASE);
+		putimage(WINDOW_WIDTH / 2 - boss1w / 2, -boss1h + boss1image, &i_boss1_1, SRCINVERT);
+	}
