@@ -1,0 +1,13 @@
+        p=(U*)malloc(sizeof(U));
+        strcpy(p->name,name);
+        char mm[20];
+        gotoxy(39,13);
+        printf("）\n"); 
+        gotoxy(39,14);
+        scanf("%s",mm);
+        strcpy(p->mm,mm);
+        q->next=p;
+        q=p;
+        gotoxy(39,15);
+        scanf("%s",name);
+    }
