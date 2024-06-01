@@ -1,0 +1,9 @@
+void create(U *h)
+{
+    U *p,*q=h;
+    char name[20];
+    printf("请输入用户名,12);
+    scanf("%s",name);
+    while(strcmp(name,"OVER"))
+    {
+       
